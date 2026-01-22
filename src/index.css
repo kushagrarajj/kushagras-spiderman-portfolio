@@ -73,6 +73,52 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
+  .light {
+    --background: 0 0% 98%;
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 10%;
+
+    --primary: 0 85% 50%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 220 90% 55%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 10% 40%;
+
+    --accent: 220 90% 55%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 15% 85%;
+    --input: 220 15% 90%;
+    --ring: 0 85% 50%;
+
+    /* Spider-Man theme colors - light mode */
+    --neon-pink: 0 85% 50%;
+    --neon-blue: 220 90% 55%;
+    --dark-surface: 0 0% 96%;
+    --glass-surface: 0 0% 98%;
+    
+    /* Gradients - light mode */
+    --gradient-primary: linear-gradient(135deg, hsl(0 85% 50% / 0.8), hsl(220 90% 55% / 0.8));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100% / 0.8), hsl(220 15% 96% / 0.9));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 98%), hsl(220 15% 95%));
+    
+    /* Shadows - light mode */
+    --shadow-glow: 0 0 40px hsl(0 85% 50% / 0.2);
+    --shadow-card: 0 10px 30px hsl(220 20% 80% / 0.3);
+    --shadow-neon: 0 0 20px hsl(220 90% 55% / 0.3);
+  }
+
   .dark {
     /* Dark theme is default, no overrides needed */
   }
