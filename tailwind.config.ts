@@ -111,10 +111,10 @@ export default {
 				},
 				'glow': {
 					'0%, 100%': {
-						boxShadow: '0 0 20px hsl(var(--neon-pink) / 0.3)'
+						boxShadow: '0 0 20px hsl(0 85% 50% / 0.3)'
 					},
 					'50%': {
-						boxShadow: '0 0 30px hsl(var(--neon-pink) / 0.6)'
+						boxShadow: '0 0 30px hsl(0 85% 50% / 0.6)'
 					}
 				},
 				'float': {
@@ -123,6 +123,14 @@ export default {
 					},
 					'50%': {
 						transform: 'translateY(-10px)'
+					}
+				},
+				'web-swing': {
+					'0%, 100%': {
+						transform: 'rotate(-3deg)'
+					},
+					'50%': {
+						transform: 'rotate(3deg)'
 					}
 				}
 			},

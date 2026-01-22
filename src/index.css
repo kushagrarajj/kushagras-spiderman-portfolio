@@ -6,49 +6,49 @@
 
 @layer base {
   :root {
-    --background: 240 10% 3.9%;
+    --background: 220 20% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 240 10% 6%;
+    --card: 220 20% 10%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 6%;
+    --popover: 220 20% 10%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 330 81% 60%;
+    --primary: 0 85% 50%;
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 195 100% 50%;
-    --secondary-foreground: 240 10% 3.9%;
+    --secondary: 220 90% 55%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 240 10% 15%;
-    --muted-foreground: 240 5% 65%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 10% 60%;
 
-    --accent: 195 100% 50%;
-    --accent-foreground: 240 10% 3.9%;
+    --accent: 220 90% 55%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 240 10% 15%;
-    --input: 240 10% 15%;
-    --ring: 330 81% 60%;
+    --border: 220 15% 20%;
+    --input: 220 15% 18%;
+    --ring: 0 85% 50%;
 
-    /* Custom portfolio colors */
-    --neon-pink: 330 81% 60%;
-    --neon-blue: 195 100% 50%;
-    --dark-surface: 240 10% 6%;
-    --glass-surface: 240 10% 8%;
+    /* Spider-Man theme colors */
+    --neon-pink: 0 85% 50%;
+    --neon-blue: 220 90% 55%;
+    --dark-surface: 220 20% 10%;
+    --glass-surface: 220 20% 12%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(330 81% 60% / 0.8), hsl(195 100% 50% / 0.8));
-    --gradient-card: linear-gradient(135deg, hsl(240 10% 8% / 0.8), hsl(240 10% 6% / 0.9));
-    --gradient-hero: linear-gradient(135deg, hsl(240 10% 3.9%), hsl(240 10% 6%));
+    --gradient-primary: linear-gradient(135deg, hsl(0 85% 50% / 0.8), hsl(220 90% 55% / 0.8));
+    --gradient-card: linear-gradient(135deg, hsl(220 20% 12% / 0.8), hsl(220 20% 10% / 0.9));
+    --gradient-hero: linear-gradient(135deg, hsl(220 20% 8%), hsl(220 20% 10%));
     
     /* Shadows */
-    --shadow-glow: 0 0 40px hsl(330 81% 60% / 0.3);
-    --shadow-card: 0 10px 30px hsl(240 10% 3.9% / 0.5);
-    --shadow-neon: 0 0 20px hsl(195 100% 50% / 0.4);
+    --shadow-glow: 0 0 40px hsl(0 85% 50% / 0.3);
+    --shadow-card: 0 10px 30px hsl(220 20% 8% / 0.5);
+    --shadow-neon: 0 0 20px hsl(220 90% 55% / 0.4);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
